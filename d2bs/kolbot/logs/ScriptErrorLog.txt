@@ -1,0 +1,88 @@
+[14:57:07] <test> Error in Sonic (account.js line 38): Misc.dataAction is undefined
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:184, Account.get@account.js:38
+[15:01:26] <test> Error in Sonic (account.js line 38): Misc.dataAction is undefined
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:184, Account.get@account.js:38
+[15:02:20] <test> Error in Sonic (account.js line 38): Misc.dataAction is undefined
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:184, Account.get@account.js:38
+[19:43:27] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:214, travincal@travincal.js:38, Attack.clear@attack.js:447, Pickit.pickItems@pickit.js:321, Town.visitTown@town.js:2230, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[19:43:37] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[19:50:12] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[19:56:54] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:03:37] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:10:19] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:17:02] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:23:44] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:30:27] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:37:09] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:43:52] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:50:34] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[20:57:17] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:03:59] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:10:42] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:17:24] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:24:07] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:30:49] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:37:32] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:44:14] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:50:57] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[21:57:39] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:04:22] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:11:04] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:17:47] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:24:29] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:31:12] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:37:54] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:44:37] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:51:19] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[22:58:02] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:04:44] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:11:27] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:18:09] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:24:52] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:31:34] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:38:17] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:44:59] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:51:42] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[23:58:24] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512
+[00:05:07] <sonic> Error in Sonic (town.js line 512): Quest.talkTo is not a function
+Stack: main@default.dbj:227, Loader.init@loader.js:14, Loader.loadScripts@loader.js:124, Sonic@sonic.js:11, General.runSequence@general.js:215, General.runSequence/General<@general.js:193, Town.doChores@town.js:401, Town.checkQuestItems@town.js:512

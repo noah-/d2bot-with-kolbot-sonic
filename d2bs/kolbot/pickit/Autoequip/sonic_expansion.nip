@@ -1,0 +1,87 @@
+// ====================================================================== //
+// ======================== (c) 2016 dzik ====== #d2bs@irc.synirc.org === //
+// ====================================================================== //
+// targeting for max res in hell + stats + skills
+
+// Wep
+me.diff == 0 && ([type] == wand || [type] == orb || [type] == knife) && [Quality] < rare # [itemchargedskill] == 0 && [secondarymaxdamage] == 0 # [tier] == /*fr+cr+lr+pr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43) + item.getStatEx(45)) * 1000) + /*maxmana*/(item.getStatEx(9) * 1)
+([type] == wand || [type] == orb || [type] == knife) && [Quality] >= rare # [itemchargedskill] == 0 && [secondarymaxdamage] == 0 # [tier] == /*fr+cr+lr+pr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43) + item.getStatEx(45)) * 1000)
+//[name] == swirlingcrystal && [Quality] == unique # # [tier] == /*mf*/(item.getStatEx(80) * 10e10)
+
+// Amulet
+me.diff < 2 && [type] == amulet && [Quality] <= unique #  [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000)
+[type] == amulet && [Quality] >= rare # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000)
+//[type] == amulet && [Quality] == set # [itemchargedskill] == 0 # [tier] == /*sorcskill*/(item.getStatEx(83,1) * 10e10)
+
+// Ring
+me.diff < 2 && [name] == ring && [Quality] <= unique # [itemchargedskill] == 0 # [tier] == /*fr+pr+lr*/((item.getStatEx(39) + item.getStatEx(45) + item.getStatEx(43)) * 1000)
+[name] == ring && [Quality] <= rare # [itemchargedskill] == 0 # [tier] == /*fr+pr+lr*/((item.getStatEx(39) + item.getStatEx(45) + item.getStatEx(43)) * 1000)
+
+// Helm
+me.diff == 0 && [type] == helm && [Quality] <= unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == helm && [Quality] <= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[name] == deathmask && [Quality] == set && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000) + /*defense*/(item.getStatEx(31) * 1)
+//[name] == shako && [Quality] == unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*mf*/(item.getStatEx(80) * 10e10)
+
+// Armor
+me.diff == 0 && [type] == armor && [Quality] <= unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == armor && [Quality] >= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[name] == serpentskinarmor && [Quality] == unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10000) + /*defense*/(item.getStatEx(31) * 1)
+//[name] == lacqueredplate && [Quality] == set && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 10e10)
+
+// Belt
+me.diff == 0 && [type] == belt && [Quality] <= unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == belt && [Quality] >= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+//[name] == meshbelt && [Quality] == set && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*mf*/(item.getStatEx(80) * 10e10)
+
+// Boots
+me.diff == 0 && [type] == boots && [Quality] <= unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == boots && [Quality] >= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+
+// Gloves
+// res > all/sorc/cold > str+dex > hp/hplvl + mp/mplvl > defense
+me.diff == 0 && [type] == gloves && [Quality] <= unique && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == gloves && [Quality] >= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+
+
+//// WEAPON + SHIELD ////
+/////////////////////////
+
+// Shield
+me.diff == 0 && [type] == shield && [Quality] <= magic && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr+pr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43) + item.getStatEx(45)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+[type] == shield && [Quality] >= rare && [flag] != ethereal # [itemchargedskill] == 0 # [tier] == /*fr+cr+lr+pr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43) + item.getStatEx(45)) * 100) + /*defense*/(item.getStatEx(31) * 1)
+
+/**
+
+Merc
+
+**/
+
+//// A1 Mercenary ////
+//////////////////////
+
+// Weapon
+// amplify > ias > damage
+me.diff == 0 && me.act == 1 && [type] == bow # [itemchargedskill] == 0 # [MercTier] == /*secondarymaxdamage*/(item.getStatEx(24) * 1)
+
+
+//// A2 Mercenary ////
+//////////////////////
+
+// Weapon
+// tested stats -
+me.diff == 0 && ([type] == spear || [type] == polearm) && [Quality] <= unique # [itemchargedskill] == 0 # [MercTier] == /*secondarymaxdamage*/(item.getStatEx(24) * 1)
+([type] == spear || [type] == polearm) && [Quality] >= normal # [itemchargedskill] == 0 # [MercTier] == /*secondarymaxdamage*/(item.getStatEx(24) * 1)
+//me.diff == 2 && ([type] == spear || [type] == polearm) && ([Quality] >= set || [flag] == runeword) # [itemchargedskill] == 0 # [MercTier] == /*meditationaura*/((item.getStatEx(151,120)) * 100000) + /*lifeleech*/((item.getStatEx(60)) * 100000) + /*ias*/((item.getStatEx(93)) * 10000) + /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000) + /*maxdamage*/((item.getStatEx(24)) * 1)
+
+
+//// All clothes ////
+/////////////////////
+
+// Head
+// ll > allsk > ias > str+dex > def
+[type] == helm && [Quality] <= rare && [flag] != runeword # [itemchargedskill] == 0 # [MercTier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000)
+
+// Armor
+// skill > ias > res > def
+[type] == armor && [Quality] <= rare && [flag] != runeword # [itemchargedskill] == 0 # [MercTier] == /*fr+cr+lr*/((item.getStatEx(39) + item.getStatEx(41) + item.getStatEx(43)) * 1000)

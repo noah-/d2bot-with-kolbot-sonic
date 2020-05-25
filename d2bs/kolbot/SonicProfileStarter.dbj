@@ -1,0 +1,105 @@
+﻿// Use this starter to launch mass sonic bots
+// We use this because we need a short delay inbetween starting bots
+// so we don't all connect at the same time which can cause utc issues etc
+
+// types - "classic" to run classic profiles || "expansion" to run xpac profiles || "custom" to run a custom list of profiles
+// lists are below
+const profileType = "expansion";
+// Time in seconds before starting next bot
+const startDelay = 10;
+// Sometimes a bot might fail to start - we loop through all bots this amount
+const retryAmount = 2;
+
+include("OOG.js");
+include("sonic/common/account.js");
+
+//
+
+const profileList = {
+    "classic": [
+        // game2.exe
+        ["sonic1", "sonic2", "sonic3", "sonic4", "sonic5", "sonic6", "sonic7", "sonic8"],
+        // game3.exe
+        ["sonic9", "sonic10", "sonic11", "sonic12", "sonic13", "sonic14", "sonic15", "sonic16"],
+        // game4.exe
+        ["sonic17", "sonic18", "sonic19", "sonic20", "sonic21", "sonic22", "sonic23", "sonic24"],
+        // game5.exe
+        ["sonic25", "sonic26", "sonic27", "sonic28", "sonic29", "sonic30", "sonic31", "sonic32"],
+        // game6.exe
+        ["sonic33", "sonic34", "sonic35", "sonic36", "sonic37", "sonic38", "sonic39", "sonic40"],
+        // game7.exe
+        ["sonic41", "sonic42", "sonic43", "sonic44", "sonic45", "sonic46", "sonic47", "sonic48"],
+        // game8.exe
+        ["sonic49", "sonic50", "sonic51", "sonic52", "sonic53", "sonic54", "sonic55", "sonic56"],
+		["sonic57", "sonic58", "sonic59", "sonic60", "sonic61", "sonic62", "sonic63", "sonic64"]
+    ],
+    "expansion": [
+        // game2.exe
+        ["xsonic1", "xsonic2", "xsonic3", "xsonic4", "xsonic5", "xsonic6", "xsonic7", "xsonic8"],
+        // game3.exe
+        ["xsonic9", "xsonic10", "xsonic11", "xsonic12", "xsonic13", "xsonic14", "xsonic15", "xsonic16"],
+        // game4.exe
+        ["xsonic17", "xsonic18", "xsonic19", "xsonic20", "xsonic21", "xsonic22", "xsonic23", "xsonic24"],
+        // game5.exe
+        ["xsonic25", "xsonic26", "xsonic27", "xsonic28", "xsonic29", "xsonic30", "xsonic31", "xsonic32"],
+        // game6.exe
+        ["xsonic33", "xsonic34", "xsonic35", "xsonic36", "xsonic37", "xsonic38", "xsonic39", "xsonic40"],
+        // game7.exe
+        ["xsonic41", "xsonic42", "xsonic43", "xsonic44", "xsonic45", "xsonic46", "xsonic47", "xsonic48"],
+        // game8.exe
+        ["xsonic49", "xsonic50", "xsonic51", "xsonic52", "xsonic53", "xsonic54", "xsonic55", "xsonic56"],
+		["xsonic57", "xsonic58", "xsonic59", "xsonic60", "xsonic61", "xsonic62", "xsonic63", "xsonic64"]
+    ],
+    "custom": [
+
+    ]
+};
+
+D2Bot.init = function (h) {
+    if (h) {
+        this.handle = h;
+    }
+
+    return this.handle;
+};
+
+function main() {
+    addEventListener("copydata", (mode, msg) => {
+        if (msg == "Handle") {
+            handle = mode;
+        }
+    });
+
+    let handle;
+
+    while (!handle) {
+        delay(200);
+    }
+
+    delay(200);
+
+    D2Bot.init(handle);
+
+    /*
+    if (!FileTools.exists(Account.db.path)){
+        Account.db.create();
+    }*/
+
+    for (let i = 0; i < retryAmount; i += 1) {
+        // there should be no more than 8 profiles per game.exe
+        for (let j = 0; j < 8; j += 1) {
+            for (let profile of profileList[profileType]) {
+                if (profile.length < j) {
+                    continue;
+                }
+
+                D2Bot.start(profile[j]);
+            }
+
+            D2Bot.heartBeat();
+            delay(startDelay * 1000);
+        }
+    }
+
+    D2Bot.stop();
+}

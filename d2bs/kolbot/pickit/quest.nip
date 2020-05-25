@@ -1,0 +1,46 @@
+//[type] == staminapotion
+//[type] == antidotepotion
+//[type] == thawingpotion
+
+[Name] == ScrollOfInifuss
+[Name] == KeyToTheCairnStones
+[Name] == HoradricMalus
+[name] == bookofskill
+[Name] == HoradricCube
+[Name] == ShaftOfTheHoradricStaff
+[Name] == TopOfTheHoradricStaff # # [tier] == 0
+[Name] == HoradricStaff
+[Name] == AJadeFigurine
+[Name] == TheGoldenBird
+[Name] == PotionOfLife
+[Name] == TheGidbinn
+[Name] == Lamesen'sTome
+[Name] == Khalim'sEye
+[Name] == Khalim'sHeart
+[Name] == Khalim'sBrain
+[Name] == Khalim'sFlail
+[Name] == Khalim'sWill
+//[Name] == Mephisto'sSoulstone
+//[Name] == HellForgeHammer
+
+[Type] == Gold # [Gold] >= me.charlvl * 3 * (me.diff+1) && me.gold < 1000000
+
+[Name] == MinorManaPotion && me.charlvl < 12
+[Name] == LightManaPotion && me.charlvl < 24
+[Name] == ManaPotion 
+[Name] == GreaterManaPotion 
+[Name] == SuperManaPotion 
+
+[Name] == MinorHealingPotion && me.charlvl < 12
+[Name] == LightHealingPotion && me.charlvl < 24
+[Name] == HealingPotion && me.charlvl < 35
+[Name] == GreaterHealingPotion
+[Name] == SuperHealingPotion
+
+[Name] == RejuvenationPotion
+[Name] == FullRejuvenationPotion
+
+[Name] == ScrollOfTownportal && me.charlvl < 12 # # [MaxQuantity] == 20
+[Name] == ScrollOfIdentify && me.charlvl < 12 # # [MaxQuantity] == 20
+[Name] == TomeOfTownportal		# # [MaxQuantity] == 1
+[Name] == TomeOfIdentify		# # [MaxQuantity] == 1

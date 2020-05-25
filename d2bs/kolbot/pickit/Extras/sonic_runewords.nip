@@ -1,0 +1,15 @@
+// =================================================================== //
+// ============================== Rune Words ========================= //
+// =================================================================== //
+
+// Ancient's Pledge Rune Word // Ral + Ort + Tal
+me.diff == 0 && [name] == ralrune # # [MaxQuantity] == 1
+me.diff == 0 && [name] == ortrune # # [MaxQuantity] == 1
+me.diff == 0 && [name] == talrune # # [MaxQuantity] == 1
+me.diff == 0 && [Name] == LargeShield && [Quality] <= Superior && [Flag] != Ethereal && [Flag] != Runeword # [Sockets] == 3 # [MaxQuantity] == 1
+
+// Treachery Rune Word // Shael + Thul + Lem
+[name] == shaelrune # # [MaxQuantity] == 1
+[name] == thulrune # # [MaxQuantity] == 1
+[name] == lemrune # # [MaxQuantity] == 1
+[name] == mageplate && [quality] == superior && [Flag] != Runeword # [sockets] == 3 # [MaxQuantity] == 1
