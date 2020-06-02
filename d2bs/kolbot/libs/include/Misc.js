@@ -1,4 +1,4 @@
-﻿/**
+/**
  *	@filename	Misc.js
  *	@desc		misc library containing Skill, Misc and Sort classes
  */
@@ -217,7 +217,7 @@ Item.equip = function (item, bodyLoc, keep) {
                         cursorItem = getUnit(100);
 
                         if (cursorItem) {
-                            Packet.dropItem(cursorItem);
+                            cursorItem.drop();
                         }
                     }
                 }
@@ -908,7 +908,7 @@ Item.equipMerc = function (item, bodyLoc) {
                         cursorItem = getUnit(100);
 
                         if (cursorItem) {
-                            Packet.dropItem(cursorItem);
+                            cursorItem.drop();
                         }
                     }
                 }
@@ -1110,7 +1110,7 @@ Item.removeItemsMerc = function () {
                 if (Storage.Inventory.CanFit(cursorItem)) {
                     Storage.Inventory.MoveTo(cursorItem);
                 } else {
-                    Packet.dropItem(cursorItem);
+                    cursorItem.drop();
                 }
             }
         }
